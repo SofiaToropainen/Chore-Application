@@ -1,16 +1,33 @@
 # Chore-Application
 
-The purpose of this application is to make it easier to share chores within the family. Users can add the chores they have complited and view chores completed by other family members. The application also generates statistics based on the completed chores.
+The purpose of this application is to make it easier to share chores within the family. Users can add the chores they have completed and view chores completed by other family members. The application also generates statistics based on the completed chores. 
+
+# Features
+- Add and track personal chores.
+- View chores completed by other family members.
+- Generate statistics of completed chores.
+- Firebase Authentication for login.
+- Firebase Data Storage for saving chore data.
+
+# Technology
+- Java
+- Android Studio
+- Android SDK & Gradle
+- Firebase Authentication
+- Firebase Cloud Firestore
+- Google Play Services 
 
 # Installation
 **1. Clone repository:**
 
+- git clone https://github.com/SofiaToropainen/Chore-Application.git
+
 **2. Open the project in Android Studio:**
 - Select "Open an existing project" and navigate to the cloned folder.
   
-**3. Create own Firebase-project:**
+**3. Create your own Firebase-project:**
 
-   3.1 Go to Firebase Console.
+   3.1 Go to Firebase Console (https://console.firebase.google.com/).
    
    3.2. Create a new Android application project.
    
@@ -25,8 +42,33 @@ The purpose of this application is to make it easier to share chores within the 
 - You can test the app on a physical device or an emulator.
   
 **Note!**
-The application requires Internet-connection because it uses Firebase Authentication and Firebase Data Storage.
-If testing on an emulator, use one that supports Google Play services and has Internet access.
+The application requires internet connection because it uses Firebase Authentication and Firebase Data Storage.
+If testing on an emulator, use one that supports Google Play services and has internet access.
 - For example: Pixel 4 API 33.
-    
 
+# Usage
+1. Sign up
+- Register a new account or log in with an existing one.
+
+2. Join or create a family code
+- If a family member has already created a family code, use it to join the family.
+- Otherwise, create your own family code and share it with your family members.
+
+3. Add a new chore
+- Add a chore to the list (if it does not exist already).
+- Name the chore and set a fixed number of points.
+
+4. Add a completed chore
+- Choose the chore you have completed from the spinner.
+- Add the minutes used to complete it.
+- Press the "Add" button.
+
+5. View statistics
+- Tap the "Statistics" button.
+- Choose whether to see data from the past week or from the entire usage history.
+
+6. Log out
+- Log out when finished.
+
+# Author
+Created by Sofia Toropainen in 2025.
