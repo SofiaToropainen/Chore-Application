@@ -1,10 +1,11 @@
 # Chore-Application
 
-The purpose of this application is to make it easier to share chores within the family. Users can add the chores they have completed and view chores completed by other family members. The application also generates statistics based on the completed chores. 
+A mobile application designed to make chore-sharing easier within families. Users can add the chores they complete, see chores done by others, and view statistics based on completed tasks.
 
 # Features
 - Add and track personal chores.
 - View chores completed by other family members.
+- Earn points based on chores.
 - Generate statistics of completed chores.
 - Firebase Authentication for login.
 - Firebase Data Storage for saving chore data.
@@ -29,14 +30,14 @@ The purpose of this application is to make it easier to share chores within the 
 
    3.1 Go to Firebase Console (https://console.firebase.google.com/).
    
-   3.2. Create a new Android application project.
+   3.2. Create a new Firebase project.
    
    3.3. Add your application package name (com.example.choreapplication)
    
    3.4. Download google-services.json and place it to app/ folder of the project (in Android Studio).
   
 **4. Sync Gradle dependencies:**
-- In Android Studio, go to File -> Sync Project with Gradle Files.
+- In Android Studio, go to: File -> Sync Project with Gradle Files.
   
 **5. Run the application:**
 - You can test the app on a physical device or an emulator.
