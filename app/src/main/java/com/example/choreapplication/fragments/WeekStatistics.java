@@ -1,5 +1,7 @@
 package com.example.choreapplication.fragments;
 
+// In the WeekStatistics class, I have used ChatGPT to help in fetchData()-method. Lines 79-103.
+
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;

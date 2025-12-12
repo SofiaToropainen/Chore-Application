@@ -1,5 +1,8 @@
 package com.example.choreapplication;
 
+// In LoginActivity, the implementation is based on the Youtube video "Login and Signup Using Firebase Authentication in Android Studio | Java" by the Android Knowledge channel.
+// https://www.youtube.com/watch?v=TStttJRAPhE
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;

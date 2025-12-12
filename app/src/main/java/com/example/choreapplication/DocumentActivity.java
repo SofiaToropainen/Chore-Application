@@ -1,5 +1,8 @@
 package com.example.choreapplication;
 
+// In the DocumentActivity, the spinner implementation is based on the Youtube video "How to Implement Spinner in Android" by the Codes Easy channel.
+// https://www.youtube.com/watch?v=4ogzfAipGS8
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
